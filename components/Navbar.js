@@ -17,7 +17,7 @@ const Navbar = () => {
                 <li><a href="/" className="transition-all hover:text-yellow-200">Team</a></li>
             </ul>
             <FaBars onClick={() => setMenuOpen(true)} className='text-2xl md:hidden cursor-pointer hover:text-yellow-200'/>
-            { menuOpen && <Sidebar setMenuOpen={setMenuOpen}/>}
+            { menuOpen && <Sidebar setMenuOpen={setMenuOpen} menuOpen={menuOpen}/> }
         </nav>
     )
 }
