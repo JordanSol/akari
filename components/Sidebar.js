@@ -34,7 +34,7 @@ const Sidebar = ({ setMenuOpen, menuOpen }) => {
 
             >
                 <AiOutlineClose onClick={() => setMenuOpen(false)} className='absolute top-12 right-12 text-2xl'/>
-                <Link href="/">
+                <Link href="/" passHref>
                     <h2 className='text-4xl'>Akari</h2>
                 </Link>
                 <hr className='my-4'/>
