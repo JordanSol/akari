@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { AiOutlineClose } from 'react-icons/ai'
 import { FaDiscord, FaTwitter } from 'react-icons/fa'
-import Link from 'next/Link'
+import Link from 'next/link'
 
 const Sidebar = ({ setMenuOpen, menuOpen }) => {
     return (
