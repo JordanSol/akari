@@ -1,133 +1,373 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
+"use strict";
 (() => {
 var exports = {};
-exports.id = "pages/_app";
-exports.ids = ["pages/_app"];
+exports.id = 888;
+exports.ids = [888];
 exports.modules = {
 
-/***/ "./components/Navbar.js":
-/*!******************************!*\
-  !*** ./components/Navbar.js ***!
-  \******************************/
+/***/ 10:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! framer-motion */ \"framer-motion\");\n/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-icons/fa */ \"react-icons/fa\");\n/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_icons_fa__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _Sidebar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Sidebar */ \"./components/Sidebar.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_Sidebar__WEBPACK_IMPORTED_MODULE_4__, framer_motion__WEBPACK_IMPORTED_MODULE_1__]);\n([_Sidebar__WEBPACK_IMPORTED_MODULE_4__, framer_motion__WEBPACK_IMPORTED_MODULE_1__] = __webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__);\n\n\n\n\n\nconst Navbar = ()=>{\n    const { 0: menuOpen , 1: setMenuOpen  } = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(false);\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"nav\", {\n        className: \"w-screen z-40 text-white h-24 px-12 py-7 flex justify-between align-center fixed top-0\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                href: \"/\",\n                className: \"text-3xl font-acierOutline transition-all hover:text-yellow-200\",\n                children: \"Akari\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Navbar.js\",\n                lineNumber: 12,\n                columnNumber: 13\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                className: \"hidden md:flex list-none justify-between w-80 pt-1 3xl:d-none\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"#home\",\n                            className: \"transition-all hover:text-yellow-200\",\n                            children: \"Home\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Navbar.js\",\n                            lineNumber: 14,\n                            columnNumber: 21\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Navbar.js\",\n                        lineNumber: 14,\n                        columnNumber: 17\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"/\",\n                            className: \"transition-all hover:text-yellow-200\",\n                            children: \"About\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Navbar.js\",\n                            lineNumber: 15,\n                            columnNumber: 21\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Navbar.js\",\n                        lineNumber: 15,\n                        columnNumber: 17\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"/\",\n                            className: \"transition-all hover:text-yellow-200\",\n                            children: \"Roadmap\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Navbar.js\",\n                            lineNumber: 16,\n                            columnNumber: 21\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Navbar.js\",\n                        lineNumber: 16,\n                        columnNumber: 17\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"/\",\n                            className: \"transition-all hover:text-yellow-200\",\n                            children: \"Team\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Navbar.js\",\n                            lineNumber: 17,\n                            columnNumber: 21\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Navbar.js\",\n                        lineNumber: 17,\n                        columnNumber: 17\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Navbar.js\",\n                lineNumber: 13,\n                columnNumber: 13\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fa__WEBPACK_IMPORTED_MODULE_2__.FaBars, {\n                onClick: ()=>setMenuOpen(true)\n                ,\n                className: \"text-2xl md:hidden cursor-pointer hover:text-yellow-200\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Navbar.js\",\n                lineNumber: 19,\n                columnNumber: 13\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_Sidebar__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n                setMenuOpen: setMenuOpen,\n                menuOpen: menuOpen\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Navbar.js\",\n                lineNumber: 20,\n                columnNumber: 13\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Navbar.js\",\n        lineNumber: 11,\n        columnNumber: 9\n    }, undefined));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Navbar);\n\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL05hdmJhci5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7O0FBQXVEO0FBQ2hCO0FBQ1A7QUFFRDtBQUUvQixLQUFLLENBQUNLLE1BQU0sT0FBUyxDQUFDO0lBQ2xCLEtBQUssTUFBRUMsUUFBUSxNQUFFQyxXQUFXLE1BQUlKLCtDQUFRLENBQUMsS0FBSztJQUU5QyxNQUFNLDZFQUNESyxDQUFHO1FBQUNDLFNBQVMsRUFBQyxDQUF3Rjs7d0ZBQ2xHQyxDQUFDO2dCQUFDQyxJQUFJLEVBQUMsQ0FBRztnQkFBQ0YsU0FBUyxFQUFDLENBQWlFOzBCQUFDLENBQUs7Ozs7Ozt3RkFDNUZHLENBQUU7Z0JBQUNILFNBQVMsRUFBQyxDQUErRDs7Z0dBQ3hFSSxDQUFFOzhHQUFFSCxDQUFDOzRCQUFDQyxJQUFJLEVBQUMsQ0FBTzs0QkFBQ0YsU0FBUyxFQUFDLENBQXNDO3NDQUFDLENBQUk7Ozs7Ozs7Ozs7O2dHQUN4RUksQ0FBRTs4R0FBRUgsQ0FBQzs0QkFBQ0MsSUFBSSxFQUFDLENBQUc7NEJBQUNGLFNBQVMsRUFBQyxDQUFzQztzQ0FBQyxDQUFLOzs7Ozs7Ozs7OztnR0FDckVJLENBQUU7OEdBQUVILENBQUM7NEJBQUNDLElBQUksRUFBQyxDQUFHOzRCQUFDRixTQUFTLEVBQUMsQ0FBc0M7c0NBQUMsQ0FBTzs7Ozs7Ozs7Ozs7Z0dBQ3ZFSSxDQUFFOzhHQUFFSCxDQUFDOzRCQUFDQyxJQUFJLEVBQUMsQ0FBRzs0QkFBQ0YsU0FBUyxFQUFDLENBQXNDO3NDQUFDLENBQUk7Ozs7Ozs7Ozs7Ozs7Ozs7O3dGQUV4RVAsa0RBQU07Z0JBQUNZLE9BQU8sTUFBUVAsV0FBVyxDQUFDLElBQUk7O2dCQUFHRSxTQUFTLEVBQUMsQ0FBeUQ7Ozs7Ozt3RkFDNUdMLGdEQUFPO2dCQUFDRyxXQUFXLEVBQUVBLFdBQVc7Z0JBQUVELFFBQVEsRUFBRUEsUUFBUTs7Ozs7Ozs7Ozs7O0FBR2pFLENBQUM7QUFFRCxpRUFBZUQsTUFBTSIsInNvdXJjZXMiOlsid2VicGFjazovL2FrYXJpLy4vY29tcG9uZW50cy9OYXZiYXIuanM/ZmJjYSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBtb3Rpb24sIEFuaW1hdGVQcmVzZW5jZSB9IGZyb20gJ2ZyYW1lci1tb3Rpb24nXHJcbmltcG9ydCB7IEZhQmFycyB9IGZyb20gJ3JlYWN0LWljb25zL2ZhJ1xyXG5pbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0J1xyXG5cclxuaW1wb3J0IFNpZGViYXIgZnJvbSAnLi9TaWRlYmFyJ1xyXG5cclxuY29uc3QgTmF2YmFyID0gKCkgPT4ge1xyXG4gICAgY29uc3QgW21lbnVPcGVuLCBzZXRNZW51T3Blbl0gPSB1c2VTdGF0ZShmYWxzZSlcclxuXHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDxuYXYgY2xhc3NOYW1lPSd3LXNjcmVlbiB6LTQwIHRleHQtd2hpdGUgaC0yNCBweC0xMiBweS03IGZsZXgganVzdGlmeS1iZXR3ZWVuIGFsaWduLWNlbnRlciBmaXhlZCB0b3AtMCc+XHJcbiAgICAgICAgICAgIDxhIGhyZWY9XCIvXCIgY2xhc3NOYW1lPSd0ZXh0LTN4bCBmb250LWFjaWVyT3V0bGluZSB0cmFuc2l0aW9uLWFsbCBob3Zlcjp0ZXh0LXllbGxvdy0yMDAnPkFrYXJpPC9hPlxyXG4gICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSdoaWRkZW4gbWQ6ZmxleCBsaXN0LW5vbmUganVzdGlmeS1iZXR3ZWVuIHctODAgcHQtMSAzeGw6ZC1ub25lJz5cclxuICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPVwiI2hvbWVcIiBjbGFzc05hbWU9XCJ0cmFuc2l0aW9uLWFsbCBob3Zlcjp0ZXh0LXllbGxvdy0yMDBcIj5Ib21lPC9hPjwvbGk+XHJcbiAgICAgICAgICAgICAgICA8bGk+PGEgaHJlZj1cIi9cIiBjbGFzc05hbWU9XCJ0cmFuc2l0aW9uLWFsbCBob3Zlcjp0ZXh0LXllbGxvdy0yMDBcIj5BYm91dDwvYT48L2xpPlxyXG4gICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9XCIvXCIgY2xhc3NOYW1lPVwidHJhbnNpdGlvbi1hbGwgaG92ZXI6dGV4dC15ZWxsb3ctMjAwXCI+Um9hZG1hcDwvYT48L2xpPlxyXG4gICAgICAgICAgICAgICAgPGxpPjxhIGhyZWY9XCIvXCIgY2xhc3NOYW1lPVwidHJhbnNpdGlvbi1hbGwgaG92ZXI6dGV4dC15ZWxsb3ctMjAwXCI+VGVhbTwvYT48L2xpPlxyXG4gICAgICAgICAgICA8L3VsPlxyXG4gICAgICAgICAgICA8RmFCYXJzIG9uQ2xpY2s9eygpID0+IHNldE1lbnVPcGVuKHRydWUpfSBjbGFzc05hbWU9J3RleHQtMnhsIG1kOmhpZGRlbiBjdXJzb3ItcG9pbnRlciBob3Zlcjp0ZXh0LXllbGxvdy0yMDAnLz5cclxuICAgICAgICAgICAgPFNpZGViYXIgc2V0TWVudU9wZW49e3NldE1lbnVPcGVufSBtZW51T3Blbj17bWVudU9wZW59Lz5cclxuICAgICAgICA8L25hdj5cclxuICAgIClcclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgTmF2YmFyIl0sIm5hbWVzIjpbIm1vdGlvbiIsIkFuaW1hdGVQcmVzZW5jZSIsIkZhQmFycyIsInVzZVN0YXRlIiwiU2lkZWJhciIsIk5hdmJhciIsIm1lbnVPcGVuIiwic2V0TWVudU9wZW4iLCJuYXYiLCJjbGFzc05hbWUiLCJhIiwiaHJlZiIsInVsIiwibGkiLCJvbkNsaWNrIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/Navbar.js\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(197);
+/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(290);
+/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_icons_fa__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(689);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(514);
+/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_Link__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _Sidebar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(954);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_Sidebar__WEBPACK_IMPORTED_MODULE_5__, framer_motion__WEBPACK_IMPORTED_MODULE_1__]);
+([_Sidebar__WEBPACK_IMPORTED_MODULE_5__, framer_motion__WEBPACK_IMPORTED_MODULE_1__] = __webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__);
+
+
+
+
+
+
+const Navbar = ()=>{
+    const { 0: menuOpen , 1: setMenuOpen  } = (0,react__WEBPACK_IMPORTED_MODULE_3__.useState)(false);
+    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("nav", {
+        className: "w-screen z-40 text-white h-24 px-12 py-7 flex justify-between align-center fixed top-0",
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_Link__WEBPACK_IMPORTED_MODULE_4___default()), {
+                href: "/",
+                className: "text-3xl font-acierOutline transition-all hover:text-yellow-200",
+                children: "Akari"
+            }),
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                className: "hidden md:flex list-none justify-between w-80 pt-1 3xl:d-none",
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_Link__WEBPACK_IMPORTED_MODULE_4___default()), {
+                            href: "#home",
+                            className: "transition-all hover:text-yellow-200",
+                            children: "Home"
+                        })
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_Link__WEBPACK_IMPORTED_MODULE_4___default()), {
+                            href: "/",
+                            className: "transition-all hover:text-yellow-200",
+                            children: "About"
+                        })
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_Link__WEBPACK_IMPORTED_MODULE_4___default()), {
+                            href: "/",
+                            className: "transition-all hover:text-yellow-200",
+                            children: "Roadmap"
+                        })
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_Link__WEBPACK_IMPORTED_MODULE_4___default()), {
+                            href: "/",
+                            className: "transition-all hover:text-yellow-200",
+                            children: "Team"
+                        })
+                    })
+                ]
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_2__.FaBars, {
+                onClick: ()=>setMenuOpen(true)
+                ,
+                className: "text-2xl md:hidden cursor-pointer hover:text-yellow-200"
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Sidebar__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {
+                setMenuOpen: setMenuOpen,
+                menuOpen: menuOpen
+            })
+        ]
+    }));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Navbar);
+
+});
 
 /***/ }),
 
-/***/ "./components/Sidebar.js":
-/*!*******************************!*\
-  !*** ./components/Sidebar.js ***!
-  \*******************************/
+/***/ 954:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! framer-motion */ \"framer-motion\");\n/* harmony import */ var react_icons_ai__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-icons/ai */ \"react-icons/ai\");\n/* harmony import */ var react_icons_ai__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_icons_ai__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-icons/fa */ \"react-icons/fa\");\n/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_1__]);\nframer_motion__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__)[0];\n\n\n\n\nconst Sidebar = ({ setMenuOpen , menuOpen  })=>{\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.AnimatePresence, {\n        children: menuOpen && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"container\", {\n            className: \"fixed w-screen h-screen z-50\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.div, {\n                    className: \"fixed w-screen h-screen opacity-50 bg-black top-0 left-0\",\n                    onClick: ()=>setMenuOpen(false)\n                    ,\n                    variants: {\n                        hidden: {\n                            opacity: 0\n                        },\n                        visible: {\n                            opacity: 0.75,\n                            transition: {\n                                duration: 0.1\n                            }\n                        }\n                    },\n                    initial: \"hidden\",\n                    animate: \"visible\",\n                    exit: \"hidden\"\n                }, \"background\", false, {\n                    fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                    lineNumber: 10,\n                    columnNumber: 13\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.nav, {\n                    className: \"fixed top-0 right-0 h-screen w-screen sm:w-1/2 bg-gray-900 flex-col justify-center items-center text-center p-24\",\n                    initial: {\n                        x: 1000\n                    },\n                    animate: {\n                        x: 0\n                    },\n                    exit: {\n                        x: 1000\n                    },\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_ai__WEBPACK_IMPORTED_MODULE_2__.AiOutlineClose, {\n                            onClick: ()=>setMenuOpen(false)\n                            ,\n                            className: \"absolute top-12 right-12 text-2xl\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                            lineNumber: 35,\n                            columnNumber: 17\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"/\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                                className: \"text-4xl\",\n                                children: \"Akari\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                                lineNumber: 37,\n                                columnNumber: 21\n                            }, undefined)\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                            lineNumber: 36,\n                            columnNumber: 17\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"hr\", {\n                            className: \"my-4\"\n                        }, void 0, false, {\n                            fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                            lineNumber: 39,\n                            columnNumber: 17\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                            className: \"\",\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                    className: \"my-4\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                        href: \"#home\",\n                                        className: \"transition-all hover:text-yellow-200\",\n                                        children: \"HOME\"\n                                    }, void 0, false, {\n                                        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                                        lineNumber: 41,\n                                        columnNumber: 42\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                                    lineNumber: 41,\n                                    columnNumber: 21\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                    className: \"my-4\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                        href: \"/\",\n                                        className: \"transition-all hover:text-yellow-200\",\n                                        children: \"ABOUT\"\n                                    }, void 0, false, {\n                                        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                                        lineNumber: 42,\n                                        columnNumber: 42\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                                    lineNumber: 42,\n                                    columnNumber: 21\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                    className: \"my-4\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                        href: \"/\",\n                                        className: \"transition-all hover:text-yellow-200\",\n                                        children: \"ROADMAP\"\n                                    }, void 0, false, {\n                                        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                                        lineNumber: 43,\n                                        columnNumber: 42\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                                    lineNumber: 43,\n                                    columnNumber: 21\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                    className: \"my-4\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                        href: \"/\",\n                                        className: \"transition-all hover:text-yellow-200\",\n                                        children: \"TEAM\"\n                                    }, void 0, false, {\n                                        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                                        lineNumber: 44,\n                                        columnNumber: 42\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                                    lineNumber: 44,\n                                    columnNumber: 21\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"hr\", {\n                                        className: \"my-4\"\n                                    }, void 0, false, {\n                                        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                                        lineNumber: 45,\n                                        columnNumber: 25\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                                    lineNumber: 45,\n                                    columnNumber: 21\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"flex justify-center text-3xl\",\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__.FaDiscord, {\n                                                className: \"mx-2\"\n                                            }, void 0, false, {\n                                                fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                                                lineNumber: 48,\n                                                columnNumber: 29\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__.FaTwitter, {\n                                                className: \"mx-2\"\n                                            }, void 0, false, {\n                                                fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                                                lineNumber: 49,\n                                                columnNumber: 29\n                                            }, undefined)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                                        lineNumber: 47,\n                                        columnNumber: 25\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                                    lineNumber: 46,\n                                    columnNumber: 21\n                                }, undefined)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                            lineNumber: 40,\n                            columnNumber: 17\n                        }, undefined)\n                    ]\n                }, \"menu\", true, {\n                    fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n                    lineNumber: 28,\n                    columnNumber: 13\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n            lineNumber: 9,\n            columnNumber: 9\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\Sidebar.js\",\n        lineNumber: 7,\n        columnNumber: 9\n    }, undefined));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Sidebar);\n\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL1NpZGViYXIuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7O0FBQXVEO0FBQ1I7QUFDTTtBQUVyRCxLQUFLLENBQUNLLE9BQU8sSUFBSSxDQUFDLENBQUNDLFdBQVcsR0FBRUMsUUFBUSxFQUFDLENBQUMsR0FBSyxDQUFDO0lBQzVDLE1BQU0sNkVBQ0ROLDBEQUFlO2tCQUNkTSxRQUFRLGdGQUNUQyxDQUFTO1lBQUNDLFNBQVMsRUFBQyxDQUE4Qjs7NEZBQzlDVCxxREFBVTtvQkFBQ1MsU0FBUyxFQUFDLENBQTBEO29CQUM1RUUsT0FBTyxNQUFRTCxXQUFXLENBQUMsS0FBSzs7b0JBRWhDTSxRQUFRLEVBQUcsQ0FBQzt3QkFDUkMsTUFBTSxFQUFFLENBQUM7NEJBQ0xDLE9BQU8sRUFBRSxDQUFDO3dCQUNkLENBQUM7d0JBQ0RDLE9BQU8sRUFBRSxDQUFDOzRCQUNORCxPQUFPLEVBQUUsSUFBSTs0QkFDYkUsVUFBVSxFQUFFLENBQUM7Z0NBQ1RDLFFBQVEsRUFBRSxHQUFFOzRCQUNoQixDQUFDO3dCQUNMLENBQUM7b0JBQ0wsQ0FBQztvQkFDREMsT0FBTyxFQUFDLENBQVE7b0JBQ2hCQyxPQUFPLEVBQUMsQ0FBUztvQkFDakJDLElBQUksRUFBQyxDQUFRO21CQWRULENBQVk7Ozs7OzRGQWdCbkJwQixxREFBVTtvQkFBQ1MsU0FBUyxFQUFDLENBQWtIO29CQUVwSVMsT0FBTyxFQUFFLENBQUM7d0JBQUNJLENBQUMsRUFBRSxJQUFJO29CQUFDLENBQUM7b0JBQ3BCSCxPQUFPLEVBQUUsQ0FBQzt3QkFBQ0csQ0FBQyxFQUFFLENBQUM7b0JBQUMsQ0FBQztvQkFDakJGLElBQUksRUFBRSxDQUFDO3dCQUFDRSxDQUFDLEVBQUUsSUFBSTtvQkFBQyxDQUFDOztvR0FHaEJwQiwwREFBYzs0QkFBQ1MsT0FBTyxNQUFRTCxXQUFXLENBQUMsS0FBSzs7NEJBQUdHLFNBQVMsRUFBQyxDQUFtQzs7Ozs7O29HQUMvRmMsQ0FBQzs0QkFBQ0MsSUFBSSxFQUFDLENBQUc7a0hBQ05DLENBQUU7Z0NBQUNoQixTQUFTLEVBQUMsQ0FBVTswQ0FBQyxDQUFLOzs7Ozs7Ozs7OztvR0FFakNpQixDQUFFOzRCQUFDakIsU0FBUyxFQUFDLENBQU07Ozs7OztvR0FDbkJrQixDQUFFOzRCQUFDbEIsU0FBUyxFQUFDLENBQUU7OzRHQUNYbUIsQ0FBRTtvQ0FBQ25CLFNBQVMsRUFBQyxDQUFNOzBIQUFFYyxDQUFDO3dDQUFDQyxJQUFJLEVBQUMsQ0FBTzt3Q0FBQ2YsU0FBUyxFQUFDLENBQXNDO2tEQUFDLENBQUk7Ozs7Ozs7Ozs7OzRHQUN6Rm1CLENBQUU7b0NBQUNuQixTQUFTLEVBQUMsQ0FBTTswSEFBRWMsQ0FBQzt3Q0FBQ0MsSUFBSSxFQUFDLENBQUc7d0NBQUNmLFNBQVMsRUFBQyxDQUFzQztrREFBQyxDQUFLOzs7Ozs7Ozs7Ozs0R0FDdEZtQixDQUFFO29DQUFDbkIsU0FBUyxFQUFDLENBQU07MEhBQUVjLENBQUM7d0NBQUNDLElBQUksRUFBQyxDQUFHO3dDQUFDZixTQUFTLEVBQUMsQ0FBc0M7a0RBQUMsQ0FBTzs7Ozs7Ozs7Ozs7NEdBQ3hGbUIsQ0FBRTtvQ0FBQ25CLFNBQVMsRUFBQyxDQUFNOzBIQUFFYyxDQUFDO3dDQUFDQyxJQUFJLEVBQUMsQ0FBRzt3Q0FBQ2YsU0FBUyxFQUFDLENBQXNDO2tEQUFDLENBQUk7Ozs7Ozs7Ozs7OzRHQUNyRm1CLENBQUU7MEhBQUVGLENBQUU7d0NBQUNqQixTQUFTLEVBQUMsQ0FBTTs7Ozs7Ozs7Ozs7NEdBQ3ZCbUIsQ0FBRTswSEFDRWxCLENBQUc7d0NBQUNELFNBQVMsRUFBQyxDQUE4Qjs7d0hBQ3hDTixxREFBUztnREFBQ00sU0FBUyxFQUFDLENBQU07Ozs7Ozt3SEFDMUJMLHFEQUFTO2dEQUFDSyxTQUFTLEVBQUMsQ0FBTTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O21CQXBCbkMsQ0FBTTs7Ozs7Ozs7Ozs7Ozs7OztBQTZCMUIsQ0FBQztBQUVELGlFQUFlSixPQUFPIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vYWthcmkvLi9jb21wb25lbnRzL1NpZGViYXIuanM/M2RhYyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBtb3Rpb24sIEFuaW1hdGVQcmVzZW5jZSB9IGZyb20gJ2ZyYW1lci1tb3Rpb24nXHJcbmltcG9ydCB7IEFpT3V0bGluZUNsb3NlIH0gZnJvbSAncmVhY3QtaWNvbnMvYWknXHJcbmltcG9ydCB7IEZhRGlzY29yZCwgRmFUd2l0dGVyIH0gZnJvbSAncmVhY3QtaWNvbnMvZmEnXHJcblxyXG5jb25zdCBTaWRlYmFyID0gKHsgc2V0TWVudU9wZW4sIG1lbnVPcGVuIH0pID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPEFuaW1hdGVQcmVzZW5jZT5cclxuICAgICAgICB7IG1lbnVPcGVuICYmIChcclxuICAgICAgICA8Y29udGFpbmVyIGNsYXNzTmFtZT0nZml4ZWQgdy1zY3JlZW4gaC1zY3JlZW4gei01MCc+XHJcbiAgICAgICAgICAgIDxtb3Rpb24uZGl2IGNsYXNzTmFtZT0nZml4ZWQgdy1zY3JlZW4gaC1zY3JlZW4gb3BhY2l0eS01MCBiZy1ibGFjayB0b3AtMCBsZWZ0LTAnXHJcbiAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRNZW51T3BlbihmYWxzZSl9XHJcbiAgICAgICAgICAgICAgICBrZXk9J2JhY2tncm91bmQnXHJcbiAgICAgICAgICAgICAgICB2YXJpYW50cz0ge3tcclxuICAgICAgICAgICAgICAgICAgICBoaWRkZW46IHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgb3BhY2l0eTogMCxcclxuICAgICAgICAgICAgICAgICAgICB9LFxyXG4gICAgICAgICAgICAgICAgICAgIHZpc2libGU6IHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgb3BhY2l0eTogMC43NSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgdHJhbnNpdGlvbjoge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgZHVyYXRpb246IC4xLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgfX1cclxuICAgICAgICAgICAgICAgIGluaXRpYWw9J2hpZGRlbidcclxuICAgICAgICAgICAgICAgIGFuaW1hdGU9J3Zpc2libGUnXHJcbiAgICAgICAgICAgICAgICBleGl0PSdoaWRkZW4nXHJcbiAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgIDxtb3Rpb24ubmF2IGNsYXNzTmFtZT0nZml4ZWQgdG9wLTAgcmlnaHQtMCBoLXNjcmVlbiB3LXNjcmVlbiBzbTp3LTEvMiBiZy1ncmF5LTkwMCBmbGV4LWNvbCBqdXN0aWZ5LWNlbnRlciBpdGVtcy1jZW50ZXIgdGV4dC1jZW50ZXIgcC0yNCdcclxuICAgICAgICAgICAgICAgIGtleT0nbWVudSdcclxuICAgICAgICAgICAgICAgIGluaXRpYWw9e3sgeDogMTAwMCB9fVxyXG4gICAgICAgICAgICAgICAgYW5pbWF0ZT17eyB4OiAwIH19XHJcbiAgICAgICAgICAgICAgICBleGl0PXt7IHg6IDEwMDAgfX1cclxuXHJcbiAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgIDxBaU91dGxpbmVDbG9zZSBvbkNsaWNrPXsoKSA9PiBzZXRNZW51T3BlbihmYWxzZSl9IGNsYXNzTmFtZT0nYWJzb2x1dGUgdG9wLTEyIHJpZ2h0LTEyIHRleHQtMnhsJy8+XHJcbiAgICAgICAgICAgICAgICA8YSBocmVmPVwiL1wiPlxyXG4gICAgICAgICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9J3RleHQtNHhsJz5Ba2FyaTwvaDI+XHJcbiAgICAgICAgICAgICAgICA8L2E+XHJcbiAgICAgICAgICAgICAgICA8aHIgY2xhc3NOYW1lPSdteS00Jy8+XHJcbiAgICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPScnPlxyXG4gICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9J215LTQnPjxhIGhyZWY9XCIjaG9tZVwiIGNsYXNzTmFtZT1cInRyYW5zaXRpb24tYWxsIGhvdmVyOnRleHQteWVsbG93LTIwMFwiPkhPTUU8L2E+PC9saT5cclxuICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPSdteS00Jz48YSBocmVmPVwiL1wiIGNsYXNzTmFtZT1cInRyYW5zaXRpb24tYWxsIGhvdmVyOnRleHQteWVsbG93LTIwMFwiPkFCT1VUPC9hPjwvbGk+XHJcbiAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT0nbXktNCc+PGEgaHJlZj1cIi9cIiBjbGFzc05hbWU9XCJ0cmFuc2l0aW9uLWFsbCBob3Zlcjp0ZXh0LXllbGxvdy0yMDBcIj5ST0FETUFQPC9hPjwvbGk+XHJcbiAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT0nbXktNCc+PGEgaHJlZj1cIi9cIiBjbGFzc05hbWU9XCJ0cmFuc2l0aW9uLWFsbCBob3Zlcjp0ZXh0LXllbGxvdy0yMDBcIj5URUFNPC9hPjwvbGk+XHJcbiAgICAgICAgICAgICAgICAgICAgPGxpPjxociBjbGFzc05hbWU9J215LTQnLz48L2xpPlxyXG4gICAgICAgICAgICAgICAgICAgIDxsaT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9J2ZsZXgganVzdGlmeS1jZW50ZXIgdGV4dC0zeGwnPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPEZhRGlzY29yZCBjbGFzc05hbWU9J214LTInLz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxGYVR3aXR0ZXIgY2xhc3NOYW1lPSdteC0yJy8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIDwvbGk+XHJcbiAgICAgICAgICAgICAgICA8L3VsPlxyXG4gICAgICAgICAgICA8L21vdGlvbi5uYXY+XHJcbiAgICAgICAgPC9jb250YWluZXI+XHJcbiAgICAgICAgKX1cclxuICAgICAgICA8L0FuaW1hdGVQcmVzZW5jZT5cclxuICAgIClcclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgU2lkZWJhciJdLCJuYW1lcyI6WyJtb3Rpb24iLCJBbmltYXRlUHJlc2VuY2UiLCJBaU91dGxpbmVDbG9zZSIsIkZhRGlzY29yZCIsIkZhVHdpdHRlciIsIlNpZGViYXIiLCJzZXRNZW51T3BlbiIsIm1lbnVPcGVuIiwiY29udGFpbmVyIiwiY2xhc3NOYW1lIiwiZGl2Iiwib25DbGljayIsInZhcmlhbnRzIiwiaGlkZGVuIiwib3BhY2l0eSIsInZpc2libGUiLCJ0cmFuc2l0aW9uIiwiZHVyYXRpb24iLCJpbml0aWFsIiwiYW5pbWF0ZSIsImV4aXQiLCJuYXYiLCJ4IiwiYSIsImhyZWYiLCJoMiIsImhyIiwidWwiLCJsaSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./components/Sidebar.js\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(197);
+/* harmony import */ var react_icons_ai__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(847);
+/* harmony import */ var react_icons_ai__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_icons_ai__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(290);
+/* harmony import */ var react_icons_fa__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(514);
+/* harmony import */ var next_Link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_Link__WEBPACK_IMPORTED_MODULE_4__);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_1__]);
+framer_motion__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__)[0];
+
+
+
+
+
+const Sidebar = ({ setMenuOpen , menuOpen  })=>{
+    return(/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_1__.AnimatePresence, {
+        children: menuOpen && /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("container", {
+            className: "fixed w-screen h-screen z-50",
+            children: [
+                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.div, {
+                    className: "fixed w-screen h-screen opacity-50 bg-black top-0 left-0",
+                    onClick: ()=>setMenuOpen(false)
+                    ,
+                    variants: {
+                        hidden: {
+                            opacity: 0
+                        },
+                        visible: {
+                            opacity: 0.75,
+                            transition: {
+                                duration: 0.1
+                            }
+                        }
+                    },
+                    initial: "hidden",
+                    animate: "visible",
+                    exit: "hidden"
+                }, "background"),
+                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(framer_motion__WEBPACK_IMPORTED_MODULE_1__.motion.nav, {
+                    className: "fixed top-0 right-0 h-screen w-screen sm:w-1/2 bg-gray-900 flex-col justify-center items-center text-center p-24",
+                    initial: {
+                        x: 1000
+                    },
+                    animate: {
+                        x: 0
+                    },
+                    exit: {
+                        x: 1000
+                    },
+                    children: [
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_ai__WEBPACK_IMPORTED_MODULE_2__.AiOutlineClose, {
+                            onClick: ()=>setMenuOpen(false)
+                            ,
+                            className: "absolute top-12 right-12 text-2xl"
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_Link__WEBPACK_IMPORTED_MODULE_4___default()), {
+                            href: "/",
+                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                                className: "text-4xl",
+                                children: "Akari"
+                            })
+                        }),
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("hr", {
+                            className: "my-4"
+                        }),
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                            className: "",
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                    className: "my-4",
+                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_Link__WEBPACK_IMPORTED_MODULE_4___default()), {
+                                        href: "#home",
+                                        className: "transition-all hover:text-yellow-200",
+                                        children: "HOME"
+                                    })
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                    className: "my-4",
+                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_Link__WEBPACK_IMPORTED_MODULE_4___default()), {
+                                        href: "/",
+                                        className: "transition-all hover:text-yellow-200",
+                                        children: "ABOUT"
+                                    })
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                    className: "my-4",
+                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_Link__WEBPACK_IMPORTED_MODULE_4___default()), {
+                                        href: "/",
+                                        className: "transition-all hover:text-yellow-200",
+                                        children: "ROADMAP"
+                                    })
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                    className: "my-4",
+                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_Link__WEBPACK_IMPORTED_MODULE_4___default()), {
+                                        href: "/",
+                                        className: "transition-all hover:text-yellow-200",
+                                        children: "TEAM"
+                                    })
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("hr", {
+                                        className: "my-4"
+                                    })
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                        className: "flex justify-center text-3xl",
+                                        children: [
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__.FaDiscord, {
+                                                className: "mx-2"
+                                            }),
+                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_icons_fa__WEBPACK_IMPORTED_MODULE_3__.FaTwitter, {
+                                                className: "mx-2"
+                                            })
+                                        ]
+                                    })
+                                })
+                            ]
+                        })
+                    ]
+                }, "menu")
+            ]
+        })
+    }));
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Sidebar);
+
+});
 
 /***/ }),
 
-/***/ "./components/layout.js":
-/*!******************************!*\
-  !*** ./components/layout.js ***!
-  \******************************/
+/***/ 469:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Layout)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar */ \"./components/Navbar.js\");\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_Navbar__WEBPACK_IMPORTED_MODULE_1__]);\n_Navbar__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__)[0];\n\n\nfunction Layout({ children  }) {\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n        className: \"w-full overflow-hidden\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_Navbar__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\layout.js\",\n                lineNumber: 6,\n                columnNumber: 13\n            }, this),\n            children\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\components\\\\layout.js\",\n        lineNumber: 5,\n        columnNumber: 9\n    }, this));\n};\n\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL2xheW91dC5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUE2QjtBQUVkLFFBQVEsQ0FBQ0MsTUFBTSxDQUFDLENBQUMsQ0FBQ0MsUUFBUSxFQUFDLENBQUMsRUFBRSxDQUFDO0lBQzFDLE1BQU0sNkVBQ0RDLENBQUk7UUFBQ0MsU0FBUyxFQUFDLENBQXdCOzt3RkFDbkNKLCtDQUFNOzs7OztZQUNORSxRQUFROzs7Ozs7O0FBR3JCLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9ha2FyaS8uL2NvbXBvbmVudHMvbGF5b3V0LmpzPzI5YTciXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IE5hdmJhciBmcm9tICcuL05hdmJhcidcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIExheW91dCh7IGNoaWxkcmVuIH0pIHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPG1haW4gY2xhc3NOYW1lPSd3LWZ1bGwgb3ZlcmZsb3ctaGlkZGVuJz5cclxuICAgICAgICAgICAgPE5hdmJhci8+XHJcbiAgICAgICAgICAgIHtjaGlsZHJlbn1cclxuICAgICAgICA8L21haW4+XHJcbiAgICApXHJcbn0iXSwibmFtZXMiOlsiTmF2YmFyIiwiTGF5b3V0IiwiY2hpbGRyZW4iLCJtYWluIiwiY2xhc3NOYW1lIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/layout.js\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (/* binding */ Layout)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(10);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_Navbar__WEBPACK_IMPORTED_MODULE_1__]);
+_Navbar__WEBPACK_IMPORTED_MODULE_1__ = (__webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__)[0];
+
+
+function Layout({ children  }) {
+    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("main", {
+        className: "w-full overflow-hidden",
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_Navbar__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z, {}),
+            children
+        ]
+    }));
+};
+
+});
 
 /***/ }),
 
-/***/ "./pages/_app.js":
-/*!***********************!*\
-  !*** ./pages/_app.js ***!
-  \***********************/
+/***/ 510:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! framer-motion */ \"framer-motion\");\n/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/layout */ \"./components/layout.js\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_4__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_2__, _components_layout__WEBPACK_IMPORTED_MODULE_3__]);\n([framer_motion__WEBPACK_IMPORTED_MODULE_2__, _components_layout__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__);\n\n\n\n\n\nfunction MyApp({ Component , pageProps , router  }) {\n    return(/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                        children: \"Akari NFT\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\pages\\\\_app.js\",\n                        lineNumber: 10,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"icon\",\n                        type: \"image/png\",\n                        href: \"/favicon-32x32.png\",\n                        sizes: \"32x32\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\pages\\\\_app.js\",\n                        lineNumber: 11,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"https://use.typekit.net/vrc4mmd.css\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\pages\\\\_app.js\",\n                        lineNumber: 12,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"preconnect\",\n                        href: \"https://fonts.googleapis.com\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\pages\\\\_app.js\",\n                        lineNumber: 13,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"preconnect\",\n                        href: \"https://fonts.gstatic.com\",\n                        crossorigin: true\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\pages\\\\_app.js\",\n                        lineNumber: 14,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        href: \"https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap\",\n                        rel: \"stylesheet\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\pages\\\\_app.js\",\n                        lineNumber: 15,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\pages\\\\_app.js\",\n                lineNumber: 9,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_layout__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {\n                    initial: \"pageInitial\",\n                    animate: \"pageAnimate\",\n                    variants: {\n                        pageInitial: {\n                            opacity: 0\n                        },\n                        pageAnimate: {\n                            opacity: 1\n                        }\n                    },\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                        ...pageProps\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\pages\\\\_app.js\",\n                        lineNumber: 26,\n                        columnNumber: 13\n                    }, this)\n                }, router.route, false, {\n                    fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\pages\\\\_app.js\",\n                    lineNumber: 18,\n                    columnNumber: 11\n                }, this)\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\Jordan\\\\Documents\\\\Projects\\\\akari\\\\pages\\\\_app.js\",\n                lineNumber: 17,\n                columnNumber: 9\n            }, this)\n        ]\n    }, void 0, true));\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBNEI7QUFDUTtBQUNLO0FBQ1g7U0FFckJHLEtBQUssQ0FBQyxDQUFDLENBQUNDLFNBQVMsR0FBRUMsU0FBUyxHQUFFQyxNQUFNLEVBQUMsQ0FBQyxFQUFFLENBQUM7SUFDOUMsTUFBTTs7d0ZBRUhOLGtEQUFJOztnR0FDRk8sQ0FBSztrQ0FBQyxDQUFTOzs7Ozs7Z0dBQ2ZDLENBQUk7d0JBQUNDLEdBQUcsRUFBQyxDQUFNO3dCQUFDQyxJQUFJLEVBQUMsQ0FBVzt3QkFBQ0MsSUFBSSxFQUFDLENBQW9CO3dCQUFDQyxLQUFLLEVBQUMsQ0FBTzs7Ozs7O2dHQUN4RUosQ0FBSTt3QkFBQ0MsR0FBRyxFQUFDLENBQVk7d0JBQUNFLElBQUksRUFBQyxDQUFxQzs7Ozs7O2dHQUNoRUgsQ0FBSTt3QkFBQ0MsR0FBRyxFQUFDLENBQVk7d0JBQUNFLElBQUksRUFBQyxDQUE4Qjs7Ozs7O2dHQUN6REgsQ0FBSTt3QkFBQ0MsR0FBRyxFQUFDLENBQVk7d0JBQUNFLElBQUksRUFBQyxDQUEyQjt3QkFBQ0UsV0FBVzs7Ozs7O2dHQUNsRUwsQ0FBSTt3QkFBQ0csSUFBSSxFQUFDLENBQWdIO3dCQUFDRixHQUFHLEVBQUMsQ0FBWTs7Ozs7Ozs7Ozs7O3dGQUUzSVAsMERBQU07c0dBQ0pELHFEQUFVO29CQUFvQmMsT0FBTyxFQUFDLENBQWE7b0JBQUNDLE9BQU8sRUFBQyxDQUFhO29CQUFDQyxRQUFRLEVBQUUsQ0FBQzt3QkFDcEZDLFdBQVcsRUFBRSxDQUFDOzRCQUNaQyxPQUFPLEVBQUUsQ0FBQzt3QkFDWixDQUFDO3dCQUNEQyxXQUFXLEVBQUUsQ0FBQzs0QkFDWkQsT0FBTyxFQUFFLENBQUM7d0JBQ1osQ0FBQztvQkFDSCxDQUFDOzBHQUNFZixTQUFTOzJCQUFLQyxTQUFTOzs7Ozs7bUJBUlRDLE1BQU0sQ0FBQ2UsS0FBSzs7Ozs7Ozs7Ozs7O0FBYXJDLENBQUM7QUFFSCxpRUFBZWxCLEtBQUsiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9ha2FyaS8uL3BhZ2VzL19hcHAuanM/ZTBhZCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnXHJcbmltcG9ydCB7bW90aW9ufSBmcm9tICdmcmFtZXItbW90aW9uJ1xyXG5pbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvbGF5b3V0J1xyXG5pbXBvcnQgJy4uL3N0eWxlcy9nbG9iYWxzLmNzcydcclxuXHJcbmZ1bmN0aW9uIE15QXBwKHsgQ29tcG9uZW50LCBwYWdlUHJvcHMsIHJvdXRlciB9KSB7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICA8PlxyXG4gICAgICA8SGVhZD5cclxuICAgICAgICA8dGl0bGU+QWthcmkgTkZUPC90aXRsZT5cclxuICAgICAgICA8bGluayByZWw9XCJpY29uXCIgdHlwZT1cImltYWdlL3BuZ1wiIGhyZWY9XCIvZmF2aWNvbi0zMngzMi5wbmdcIiBzaXplcz1cIjMyeDMyXCIvPlxyXG4gICAgICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiaHR0cHM6Ly91c2UudHlwZWtpdC5uZXQvdnJjNG1tZC5jc3NcIi8+XHJcbiAgICAgICAgPGxpbmsgcmVsPVwicHJlY29ubmVjdFwiIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tXCI+PC9saW5rPlxyXG4gICAgICAgIDxsaW5rIHJlbD1cInByZWNvbm5lY3RcIiBocmVmPVwiaHR0cHM6Ly9mb250cy5nc3RhdGljLmNvbVwiIGNyb3Nzb3JpZ2luPjwvbGluaz5cclxuICAgICAgICA8bGluayBocmVmPVwiaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3MyP2ZhbWlseT1Nb250c2VycmF0Oml0YWwsd2dodEAwLDQwMDswLDYwMDswLDgwMDsxLDQwMDsxLDYwMDsxLDgwMCZkaXNwbGF5PXN3YXBcIiByZWw9XCJzdHlsZXNoZWV0XCI+PC9saW5rPlxyXG4gICAgICA8L0hlYWQ+XHJcbiAgICAgICAgPExheW91dD5cclxuICAgICAgICAgIDxtb3Rpb24uZGl2IGtleT17cm91dGVyLnJvdXRlfSBpbml0aWFsPSdwYWdlSW5pdGlhbCcgYW5pbWF0ZT0ncGFnZUFuaW1hdGUnIHZhcmlhbnRzPXt7XHJcbiAgICAgICAgICAgIHBhZ2VJbml0aWFsOiB7XHJcbiAgICAgICAgICAgICAgb3BhY2l0eTogMFxyXG4gICAgICAgICAgICB9LFxyXG4gICAgICAgICAgICBwYWdlQW5pbWF0ZToge1xyXG4gICAgICAgICAgICAgIG9wYWNpdHk6IDFcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgfX0+XHJcbiAgICAgICAgICAgIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30vPlxyXG4gICAgICAgICAgPC9tb3Rpb24uZGl2PlxyXG4gICAgICAgIDwvTGF5b3V0PlxyXG4gICAgICA8Lz5cclxuICAgIClcclxuICB9XHJcbiAgXHJcbmV4cG9ydCBkZWZhdWx0IE15QXBwIl0sIm5hbWVzIjpbIkhlYWQiLCJtb3Rpb24iLCJMYXlvdXQiLCJNeUFwcCIsIkNvbXBvbmVudCIsInBhZ2VQcm9wcyIsInJvdXRlciIsInRpdGxlIiwibGluayIsInJlbCIsInR5cGUiLCJocmVmIiwic2l6ZXMiLCJjcm9zc29yaWdpbiIsImRpdiIsImluaXRpYWwiLCJhbmltYXRlIiwidmFyaWFudHMiLCJwYWdlSW5pdGlhbCIsIm9wYWNpdHkiLCJwYWdlQW5pbWF0ZSIsInJvdXRlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
+__webpack_require__.a(module, async (__webpack_handle_async_dependencies__) => {
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(997);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(968);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(197);
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(469);
+var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([framer_motion__WEBPACK_IMPORTED_MODULE_2__, _components_layout__WEBPACK_IMPORTED_MODULE_3__]);
+([framer_motion__WEBPACK_IMPORTED_MODULE_2__, _components_layout__WEBPACK_IMPORTED_MODULE_3__] = __webpack_async_dependencies__.then ? await __webpack_async_dependencies__ : __webpack_async_dependencies__);
+
+
+
+
+
+function MyApp({ Component , pageProps , router  }) {
+    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
+        children: [
+            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {
+                children: [
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("title", {
+                        children: "Akari NFT"
+                    }),
+                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
+                        rel: "icon",
+                        type: "image/png",
+                        href: "/favicon-32x32.png",
+                        sizes: "32x32"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_layout__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__.motion.div, {
+                    initial: "pageInitial",
+                    animate: "pageAnimate",
+                    variants: {
+                        pageInitial: {
+                            opacity: 0
+                        },
+                        pageAnimate: {
+                            opacity: 1
+                        }
+                    },
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Component, {
+                        ...pageProps
+                    })
+                }, router.route)
+            })
+        ]
+    }));
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);
+
+});
 
 /***/ }),
 
-/***/ "./styles/globals.css":
-/*!****************************!*\
-  !*** ./styles/globals.css ***!
-  \****************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
+/***/ 514:
 /***/ ((module) => {
 
-"use strict";
+module.exports = require("next/Link");
+
+/***/ }),
+
+/***/ 968:
+/***/ ((module) => {
+
 module.exports = require("next/head");
 
 /***/ }),
 
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
+/***/ 689:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("react");
 
 /***/ }),
 
-/***/ "react-icons/ai":
-/*!*********************************!*\
-  !*** external "react-icons/ai" ***!
-  \*********************************/
+/***/ 847:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("react-icons/ai");
 
 /***/ }),
 
-/***/ "react-icons/fa":
-/*!*********************************!*\
-  !*** external "react-icons/fa" ***!
-  \*********************************/
+/***/ 290:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("react-icons/fa");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ "framer-motion":
-/*!********************************!*\
-  !*** external "framer-motion" ***!
-  \********************************/
+/***/ 197:
 /***/ ((module) => {
 
-"use strict";
 module.exports = import("framer-motion");;
 
 /***/ })
@@ -139,7 +379,7 @@ module.exports = import("framer-motion");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
+var __webpack_exports__ = (__webpack_exec__(510));
 module.exports = __webpack_exports__;
 
 })();
