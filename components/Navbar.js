@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { FaBars } from 'react-icons/fa'
 import { useState } from 'react'
-import Link from 'next/Link'
+import Link from 'next/link'
 
 import Sidebar from './Sidebar'
 
