@@ -5,9 +5,7 @@ import NoSsr from "../components/no-ssr"
 const HomePage = () => {
     return (
         <container className=''>
-            <NoSsr>
-                <Hero/>
-            </NoSsr>
+            <Hero/>
             <About/>
         </container>
     )
