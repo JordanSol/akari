@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { FaBars } from 'react-icons/fa'
 import { useState } from 'react'
+import Link from 'next/Link'
 
 import Sidebar from './Sidebar'
 
@@ -9,12 +10,12 @@ const Navbar = () => {
 
     return (
         <nav className='w-screen z-40 text-white h-24 px-12 py-7 flex justify-between align-center fixed top-0'>
-            <a href="/" className='text-3xl font-acierOutline transition-all hover:text-yellow-200'>Akari</a>
+            <Link href="/" className='text-3xl font-acierOutline transition-all hover:text-yellow-200'>Akari</Link>
             <ul className='hidden md:flex list-none justify-between w-80 pt-1 3xl:d-none'>
-                <li><a href="#home" className="transition-all hover:text-yellow-200">Home</a></li>
-                <li><a href="/" className="transition-all hover:text-yellow-200">About</a></li>
-                <li><a href="/" className="transition-all hover:text-yellow-200">Roadmap</a></li>
-                <li><a href="/" className="transition-all hover:text-yellow-200">Team</a></li>
+                <li><Link href="#home" className="transition-all hover:text-yellow-200">Home</Link></li>
+                <li><Link href="/" className="transition-all hover:text-yellow-200">About</Link></li>
+                <li><Link href="/" className="transition-all hover:text-yellow-200">Roadmap</Link></li>
+                <li><Link href="/" className="transition-all hover:text-yellow-200">Team</Link></li>
             </ul>
             <FaBars onClick={() => setMenuOpen(true)} className='text-2xl md:hidden cursor-pointer hover:text-yellow-200'/>
             <Sidebar setMenuOpen={setMenuOpen} menuOpen={menuOpen}/>

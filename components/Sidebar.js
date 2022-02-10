@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { AiOutlineClose } from 'react-icons/ai'
 import { FaDiscord, FaTwitter } from 'react-icons/fa'
+import Link from 'next/linLink'
 
 const Sidebar = ({ setMenuOpen, menuOpen }) => {
     return (
@@ -33,15 +34,15 @@ const Sidebar = ({ setMenuOpen, menuOpen }) => {
 
             >
                 <AiOutlineClose onClick={() => setMenuOpen(false)} className='absolute top-12 right-12 text-2xl'/>
-                <a href="/">
+                <Link href="/">
                     <h2 className='text-4xl'>Akari</h2>
-                </a>
+                </Link>
                 <hr className='my-4'/>
                 <ul className=''>
-                    <li className='my-4'><a href="#home" className="transition-all hover:text-yellow-200">HOME</a></li>
-                    <li className='my-4'><a href="/" className="transition-all hover:text-yellow-200">ABOUT</a></li>
-                    <li className='my-4'><a href="/" className="transition-all hover:text-yellow-200">ROADMAP</a></li>
-                    <li className='my-4'><a href="/" className="transition-all hover:text-yellow-200">TEAM</a></li>
+                    <li className='my-4'><Link href="#home" className="transition-all hover:text-yellow-200">HOME</Link></li>
+                    <li className='my-4'><Link href="/" className="transition-all hover:text-yellow-200">ABOUT</Link></li>
+                    <li className='my-4'><Link href="/" className="transition-all hover:text-yellow-200">ROADMAP</Link></li>
+                    <li className='my-4'><Link href="/" className="transition-all hover:text-yellow-200">TEAM</Link></li>
                     <li><hr className='my-4'/></li>
                     <li>
                         <div className='flex justify-center text-3xl'>
