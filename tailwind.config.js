@@ -16,6 +16,16 @@ module.exports = {
       fontSize: {
         '8xl': '7rem',
         '9xl': '9rem'
+      },
+      colors: {
+        sitePurple: '#140027'
+      },
+      zIndex: {
+        '60': '60',
+        '70': '70',
+        '80': '80',
+        '90': '90',
+        '100': '100'
       }
     },
   },
