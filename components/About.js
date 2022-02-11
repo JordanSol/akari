@@ -24,6 +24,7 @@ const About = () => {
                     <Image width={509} height={655} src='/YellowCard.png' alt='Akari NFT'
                         className='relative'
                     />
+                    <div className='absolute bottom-0 w-full h-1/6 bg-gradient-to-b from-transparent to-sitePurple'/> 
                 </FadeInRight>
             </div>
         </div>

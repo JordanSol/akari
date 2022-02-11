@@ -22,7 +22,8 @@ const FadeInLeft = ({ children }) => {
         ref={ref} 
         initial="hidden" 
         animate={controls} 
-        variants={fadeInLeft}>
+        variants={fadeInLeft}
+        className='relative'>
             {children}
         </motion.div>
     )
