@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 
 const loaderVariants = {
     animationOne: {
@@ -9,14 +9,31 @@ const loaderVariants = {
                 duration: .5,
             }
         }
-    }
+    },
 }
 
 const Loader = () => {
     return (
-        <div className='absolute top-0 left-0 w-screen h-screen z-[999] bg-sitePurple flex justify-center items-center'>
+    <AnimatePresence>
+        <motion.div className='absolute top-0 left-0 w-screen h-screen z-[999] bg-sitePurple flex justify-center items-center'
+            variants={{
+                hidden: {
+                    opacity: 0
+                }, 
+                visible: {
+                    opacity: 1,
+                    transition: {
+                        duation: .1
+                    }
+                }
+            }}
+            initial='visible'
+            animate='visible'
+            exit='hidden'
+        >
             <motion.h2 animate="animationOne" variants={loaderVariants} className='text-7xl'>灯</motion.h2>
-        </div>
+        </motion.div>
+    </AnimatePresence>
     )
 }
 
