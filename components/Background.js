@@ -12,7 +12,7 @@ const Background = ({children, speed = 10, initSize, dur, del }) => {
                 scale: 1,
                 transition: {
                     duration: dur,
-                    delay: del,
+                    delay: 0.2,
                     type: "spring",
                     bounce: .3
                 }

@@ -1,8 +1,10 @@
 import Background from './Background'
 import {ParallaxProvider} from 'react-scroll-parallax'
 import Image from 'next/image'
+import { useState, useEffect } from 'react'
 
 const Hero = () => {
+    
     return (
         <>
         <ParallaxProvider>
@@ -17,13 +19,13 @@ const Hero = () => {
                 <Image priority quality='100' layout='fill' src='/layer3.png' alt='background layer 3' className='opacity-0 md:opacity-100 w-full z-40 h-screen object-cover object-center'/>
                 <Image priority quality='100' layout='fill' src='/layer3mobile.png' alt='background layer 3' className='opacity-100 md:opacity-0 w-full z-40 h-screen object-cover object-right'/>
                 <div className='absolute bottom-[-100%] w-screen h-screen bg-sitePurple'></div>
-                <div className='absolute z-50 bottom-0 w-screen h-1/5 bg-gradient-to-b from-transparent to-sitePurple'/>
+                <div className='absolute z-50 bottom-0 mb-[-1px] w-screen h-1/5 bg-gradient-to-b from-transparent to-sitePurple'/>
             </Background>
             <Background speed={70} dur={1.35} initSize={1.6}>
                 <span className='absolute bottom-12 left-12 rotate-270 text-white font-acierOutline text-5xl'>.0<span>1</span></span>
-                <div className='absolute bottom-12 right-12  w-2 text-white flex-col justify-center'>
+                <div className='absolute bottom-0 right-12  w-2 text-white flex-col justify-center'>
                     <p className='font-acier text-sm rotate-90 w-1'>{'"Scroll Down"'}</p>
-                    <Image priority quality='100' layout='fill' src="/Arrow 1.svg" alt='arrow vector' className='margin-0'/>
+                    <img priority quality='100' layout='fill' src="/Arrow 1.svg" alt='arrow vector' className='margin-0'/>
                 </div>
             </Background>
             <Background speed={70} dur={1.35} initSize={1.6}>
