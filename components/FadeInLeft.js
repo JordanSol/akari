@@ -12,7 +12,6 @@ const FadeInLeft = ({ children }) => {
     const controls = useAnimation()
 
     useEffect(() => {
-        console.log('in view')
         if (inView) {
             controls.start('visible')
         }

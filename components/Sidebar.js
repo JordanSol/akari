@@ -7,7 +7,7 @@ const Sidebar = ({ setMenuOpen, menuOpen }) => {
     return (
         <AnimatePresence>
         { menuOpen && (
-        <container className='fixed w-screen h-screen z-50'>
+        <div className='fixed w-screen h-screen z-50'>
             <motion.div className='fixed w-screen h-screen opacity-50 bg-black top-0 left-0'
                 onClick={() => setMenuOpen(false)}
                 key='background'
@@ -53,7 +53,7 @@ const Sidebar = ({ setMenuOpen, menuOpen }) => {
                     </li>
                 </ul>
             </motion.nav>
-        </container>
+        </div>
         )}
         </AnimatePresence>
     )

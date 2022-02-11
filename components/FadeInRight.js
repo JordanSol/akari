@@ -1,5 +1,5 @@
 import { useInView } from 'react-intersection-observer'
-import { useAnimation, motion, useSpring } from 'framer-motion'
+import { useAnimation, motion } from 'framer-motion'
 import { useEffect } from 'react'
 
 const fadeInRight = {
@@ -8,12 +8,11 @@ const fadeInRight = {
 }
 
 
-const FadeInRight = ({ variant, children }) => {
+const FadeInRight = ({ children }) => {
     const [ ref, inView ] = useInView()
     const controls = useAnimation()
 
     useEffect(() => {
-        console.log('in view')
         if (inView) {
             controls.start('visible')
         }
