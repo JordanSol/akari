@@ -8,7 +8,7 @@ const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false)
 
     return (
-        <nav className='w-screen z-40 text-white h-24 px-12 py-7 flex justify-between align-center fixed top-0'>
+        <nav className='w-screen z-100 text-white h-24 px-12 py-7 flex justify-between align-center fixed top-0'>
             <Link href="/" passHref><h3 className='text-3xl font-acierOutline transition-all hover:text-yellow-200 cursor-pointer'>Akari</h3></Link>
             <ul className='hidden md:flex list-none justify-between w-80 pt-1 3xl:d-none'>
                 <li><Link href="#home" className="transition-all hover:text-yellow-200">Home</Link></li>

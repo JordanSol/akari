@@ -28,9 +28,10 @@ const Sidebar = ({ setMenuOpen, menuOpen }) => {
             />
             <motion.nav className='fixed top-0 right-0 h-screen w-screen sm:w-1/2 bg-gray-900 flex-col justify-center items-center text-center p-24'
                 key='menu'
-                initial={{ x: 1000 }}
+                initial={{ x: '100vh' }}
                 animate={{ x: 0 }}
-                exit={{ x: 1000 }}
+                transition={{ type: 'spring', damping: 15, duration: .5}}
+                exit={{ x: '100vh' }}
 
             >
                 <AiOutlineClose onClick={() => setMenuOpen(false)} className='absolute top-12 right-12 text-2xl'/>

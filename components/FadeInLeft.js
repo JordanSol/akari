@@ -7,7 +7,7 @@ const fadeInLeft = {
     hidden: { opacity: 0, x: -100}
 }
 
-const FadeInLeft = ({ variant, children }) => {
+const FadeInLeft = ({ children }) => {
     const [ ref, inView ] = useInView()
     const controls = useAnimation()
 
