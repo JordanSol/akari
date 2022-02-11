@@ -24,10 +24,13 @@ const Loader = () => {
                     opacity: 1,
                     transition: {
                         duation: .1
-                    }
+                    },   
+                },
+                initial: {
+                    opacity: 1
                 }
             }}
-            initial='visible'
+            initial='initial'
             animate='visible'
             exit='hidden'
         >
