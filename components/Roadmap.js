@@ -4,9 +4,9 @@ import FadeInRight from "./FadeInRight"
 
 const Roadmap = () => {
     return (
-        <section className='w-screen min-h-screen px-12 py-12 flex flex-col items-center bg-sitePurple'>
-            <div className='max-w-screen-xl w-full'><FadeInLeft><h2 className='w-full text-4xl md:text-5xl lg:text-6xl mb-5 lg:mb-6'>Road<span className='text-yellow-300'>map</span></h2></FadeInLeft></div>
-            <div className='max-w-screen-xl w-full grid gap-20 grid-cols-1 sm:grid-cols-3 lg:grid-cols-4'>
+        <section id='roadmap' className='w-screen min-h-screen py-12 flex flex-col items-center bg-sitePurple'>
+            <div className='max-w-screen-xl px-12 w-full'><FadeInLeft><h2 className='w-full text-4xl md:text-5xl lg:text-6xl mb-5 lg:mb-6'>Road<span className='text-yellow-300'>map</span></h2></FadeInLeft></div>
+            <div className='max-w-screen-xl px-12 w-full grid gap-20 grid-cols-1 sm:grid-cols-3 lg:grid-cols-4'>
                 <div className='col-span-2'>
                     <FadeInLeft>     
                         <RoadmapCard title='Building' number='0'>

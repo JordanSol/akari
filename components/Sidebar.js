@@ -41,8 +41,8 @@ const Sidebar = ({ setMenuOpen, menuOpen }) => {
                 <hr className='my-4'/>
                 <ul className=''>
                     <li className='my-4'><Link href="#home" className="transition-all hover:text-yellow-200">HOME</Link></li>
-                    <li className='my-4'><Link href="/" className="transition-all hover:text-yellow-200">ABOUT</Link></li>
-                    <li className='my-4'><Link href="/" className="transition-all hover:text-yellow-200">ROADMAP</Link></li>
+                    <li className='my-4'><Link href="#about" className="transition-all hover:text-yellow-200">ABOUT</Link></li>
+                    <li className='my-4'><Link href="#roadmap" className="transition-all hover:text-yellow-200">ROADMAP</Link></li>
                     <li className='my-4'><Link href="/" className="transition-all hover:text-yellow-200">TEAM</Link></li>
                     <li><hr className='my-4'/></li>
                     <li>

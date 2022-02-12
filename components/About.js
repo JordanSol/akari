@@ -5,8 +5,8 @@ import Image from 'next/image'
 const About = () => {
 
     return (
-        <section  className='w-screen relative flex justify-center pt-24'>
-        <div className='max-w-[1280px] w-full px-12'>
+        <section id='about' className='w-screen relative flex justify-center pt-24'>
+        <div className='max-w-screen-xl w-full px-12'>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-10'>
             <div className=''>
                 <FadeInLeft>
@@ -18,12 +18,12 @@ const About = () => {
                     </p>
                 </FadeInLeft>
             </div>
-            <div className='row-span-2'>
+            <div className='row-span-2 mb-[-7px]'>
                 <FadeInRight>
                     <Image width={509} height={655} src='/YellowCard.png' alt='Akari NFT'
-                        className='relative'
+                        className='relative '
                     />
-                    <div className='absolute bottom-0 w-full h-1/6 bg-gradient-to-b from-transparent to-sitePurple'/> 
+                    <div className='hidden absolute bottom-0 w-full h-1/6 bg-gradient-to-b from-transparent to-sitePurple'/> 
                 </FadeInRight>
             </div>
         </div>
