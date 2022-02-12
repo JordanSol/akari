@@ -18,7 +18,9 @@ module.exports = {
         '9xl': '9rem'
       },
       colors: {
-        sitePurple: '#140027'
+        sitePurple: '#140027',
+        darkPurple: '#0F001D',
+        darkGray: '#181a1c',
       },
       zIndex: {
         '60': '60',
