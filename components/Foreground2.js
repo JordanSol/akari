@@ -7,7 +7,7 @@ const springIn = {
         scale: 1,
         transition: {
             duration: 1.35,
-            delay: 0.2,
+            delay: 0.1,
             type: "spring",
             bounce: .3
         }
