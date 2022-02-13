@@ -24,7 +24,7 @@ const Team = () => {
     }, [controls, inView])
 
     return (
-        <section id='team' className='z-10 relative w-screen bg-darkPurple shadow-innerLg flex justify-center py-8 bg-teambg bg-center bg-cover border-yellow-300 border-t-2 border-b-2'>
+        <section id='team' className='z-10 relative w-screen bg-darkPurple shadow-innerLg flex justify-center py-20 bg-teambg bg-center bg-cover border-yellow-300 border-t-2 border-b-2'>
             <div className='max-w-screen-xl w-full px-12 flex flex-col justify-start items-center'>
                 <div className='w-full' ref={ref}>
                     <FadeInRight>
