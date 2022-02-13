@@ -28,6 +28,12 @@ module.exports = {
         '80': '80',
         '90': '90',
         '100': '100'
+      },
+      boxShadow: {
+        'innerLg': "box-shadow: inset 0 16px 32px 0 rgba(0, 0, 0, 0.7)"
+      },
+      backgroundImage: {
+        'teambg': "url('/teambg.svg')"
       }
     },
   },
