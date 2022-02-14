@@ -14,15 +14,11 @@ const Roadmap = () => {
                             <br/>
                             <p>Prominent members and early supporters in the community will earn a whitelist as a reward for their dedication. We will also be offering whitelistings through games and objectives held in the discord. </p>
                         </RoadmapCard>
-                    </FadeInLeft>
-                    <FadeInRight>
                         <RoadmapCard title='Launch Day' number='1'>
                             <p>Pre-sale access will be given to OG and Whitelisted members of the community, we believe in rewarding those that take part and get involved. We also recognize that the NFT space is large and expanding at an alarming rate, sometimes you miss getting into a project early. So we are making sure to set aside a portion for public sale so everyone has a chance to hop on for the ride.</p>
                             <br/>
                             <p>We will be launching on (me launchpad, monkelabs launchpad, our own site?) exclusively. </p>
                         </RoadmapCard>
-                    </FadeInRight>
-                    <FadeInLeft>
                         <RoadmapCard title='Post-Launch' number='2'>
                             <p>Secondary listing<br/>
                             Holder verification<br/>
@@ -31,12 +27,10 @@ const Roadmap = () => {
                             I can provide upcoming SOL nft info, having an Akari is access to that info and the community, etc.</p>
 
                         </RoadmapCard>
-                    </FadeInLeft>
-                    <FadeInRight>
                         <RoadmapCard title='...' number='3'>
                             <p>The sky is not the limit, there is nowhere the light cannot reach.</p>
                         </RoadmapCard>
-                    </FadeInRight>
+                    </FadeInLeft>
                 </div>
             </div>
         </section>
