@@ -1,13 +1,15 @@
+import Image from 'next/image'
 import RoadmapCard from "./RoadmapCard"
 import FadeInLeft from "./FadeInLeft"
 import FadeInRight from "./FadeInRight"
+import leaning from '../assets/leaning.png'
 
 const Roadmap = () => {
     return (
         <section id='roadmap' className='w-screen min-h-screen py-20 flex flex-col items-center bg-sitePurple'>
             <div className='max-w-screen-xl px-12 w-full'><FadeInLeft><h2 className='w-full text-4xl md:text-5xl lg:text-6xl mb-5 lg:mb-6'>Road<span className='text-yellow-300'>map</span></h2></FadeInLeft></div>
-            <div className='max-w-screen-xl px-12 w-full grid gap-20 grid-cols-1 sm:grid-cols-3 lg:grid-cols-4'>
-                <div className='col-span-2'>
+            <div className='relative max-w-screen-xl px-12 w-full grid gap-20 grid-cols-1 sm:grid-cols-3 lg:grid-cols-4'>
+                <div className='sm:col-span-2'>
                     <FadeInLeft>     
                         <RoadmapCard title='A Seed' number='0'>
                             <p>
@@ -39,6 +41,13 @@ const Roadmap = () => {
                             </ul>
                         </RoadmapCard>
                     </FadeInLeft>
+                </div>
+                <div className='hidden sm:flex flex-start sm:col-span-1 lg:col-span-2 relative'>
+                    <div className='sticky top-5 max-h-[960px]'>
+                        <FadeInRight>
+                            <Image layout='intrinsic' src={leaning} width={540} height={960} alt='Akari Leaning'/>
+                        </FadeInRight>
+                    </div>
                 </div>
             </div>
         </section>

@@ -11,7 +11,7 @@ const About = () => {
             <div className='row-span-2'>
                 <FadeInLeft>
                     <h2 className='text-white w-full text-4xl md:text-5xl lg:text-6xl mb-4 lg:mb-6'>What is <span className='text-yellow-300'>Akari?</span></h2>
-                    <p className=''>
+                    <p className='sticky'>
                     We are Akari, a ray of light, a peek into the future of the decentralized movement that is web3. A collection of 2222 Deliquents that call the Solana Blockchain their home. You are either in, or out, and there is no going back.
                     </p>
                 </FadeInLeft>
