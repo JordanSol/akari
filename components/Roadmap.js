@@ -46,7 +46,7 @@ const Roadmap = () => {
                     <Sticky boundaryElement='.scrollarea'>
                         <FadeInRight>
                             <div className='pt-10 3xl:pt-4'>                         
-                                <Image layout='intrinsic' placeholder='blur' src={leaning} width={540} height={960} alt='Akari Leaning'/>
+                                <Image layout='intrinsic' placeholder='blur' src={leaning} width={540} height={960} className='brightness-110' alt='Akari Leaning'/>
                             </div>
                         </FadeInRight>
                     </Sticky>
