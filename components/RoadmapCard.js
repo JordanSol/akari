@@ -9,12 +9,12 @@ const RoadmapCard = ({children, title, number}) => {
             </div>
             <div className='absolute h-full flex flex-col items-center top-6 left-2'>
                 <div className='w-[51px] h-[51px] bg-darkPurple z-30 flex justify-center items-center relative'>
-                    <div className='absolute blur-[6px] w-[25px] h-[25px] rounded-full top-1/4 left-1/4 bg-yellow-100 opacity-50'/>
+                    <div className='absolute blur-[6px] w-[25px] h-[25px] rounded-full top-1/4 left-1/4 mt-[-2px] bg-yellow-100 opacity-50'/>
                     <div className='w-[25px] h-[25px] relative flex justify-center items-center rounded-full bg-yellow-400'>
                         <div className='w-[10px] h-[10px] blur-[1px] rounded-full bg-yellow-600'/>
                     </div>
                 </div>
-                <div className='w-[3px] rounded h-full mt-1 z-20 bg-gradient-to-b from-yellow-200 to-violet-300'/>
+                <div className='w-[3px] rounded h-full mt-1 z-20 bg-gradient-to-b from-yellow-200 to-white'/>
             </div>
         </div>
     )
