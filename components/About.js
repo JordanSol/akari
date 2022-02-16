@@ -1,17 +1,40 @@
-import FadeInLeft from './FadeInLeft'
-import FadeInRight from './FadeInRight'
 import Image from 'next/image'
 import { FaDiscord, FaTwitter } from 'react-icons/fa'
 import YellowCard from '../assets/YellowCard.png'
+import { useInView } from 'react-intersection-observer'
+import { useAnimation, motion } from 'framer-motion'
+import { useEffect } from 'react'
+
+const fadeInLeft = {
+    visible: { opacity: 1, x: 0, transition: {duration: .9, delay: .5, type: 'spring', bounce: .5}},
+    hidden: { opacity: 0, x: -100}
+}
+
+const fadeInRight = {
+    visible: { opacity: 1, x: 0, transition: {duration: .9, delay: .5, type: 'spring', bounce: .5}},
+    hidden: { opacity: 0, x: 100}
+}
 
 const About = () => {
+    const [ ref, inView ] = useInView()
+    const controls = useAnimation()
+
+    useEffect(() => {
+        if (inView) {
+            controls.start('visible')
+        }
+    }, [controls, inView])
 
     return (
-        <section id='about' className='w-screen relative flex justify-center pt-24'>
+        <section id='about' ref={ref} className='w-screen relative flex justify-center pt-24'>
         <div className='max-w-screen-xl w-full px-12'>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-10'>
             <div className='row-span-2'>
-                <FadeInLeft>
+                <motion.div
+                    initial='hidden'
+                    animate={controls}
+                    variants={fadeInLeft}
+                >
                     <h2 className='text-white w-full text-4xl md:text-5xl lg:text-6xl mb-4 lg:mb-6'>What is <span className='text-yellow-300'>Akari?</span></h2>
                     <h4 className='mb-1 text-xl'>A New Light</h4>
                     <p className=''>
@@ -38,16 +61,20 @@ const About = () => {
                     </a>
                 </div>
                     </p>
-                </FadeInLeft>
+                </motion.div>
             </div>
             <div className='row-span-2 mb-[-7px]'>
                 <div className='h-full flex items-end'>
-                    <FadeInRight>
+                    <motion.div
+                        initial='hidden'
+                        animate={controls}
+                        variants={fadeInRight}
+                    >
                         <Image width={509} height={655} src={YellowCard} alt='Akari NFT'
                             placeholder='blur'
                             className='relative'
                         />
-                    </FadeInRight>
+                    </motion.div>
                 </div>
             </div>
         </div>
