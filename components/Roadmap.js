@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Sticky from 'react-sticky-el'
 import RoadmapCard from "./RoadmapCard"
 import FadeInLeft from "./FadeInLeft"
 import FadeInRight from "./FadeInRight"
@@ -42,12 +43,12 @@ const Roadmap = () => {
                         </RoadmapCard>
                     </FadeInLeft>
                 </div>
-                <div className='hidden sm:flex flex-start sm:col-span-1 lg:col-span-2 relative'>
-                    <div className='sticky top-5 max-h-[960px]'>
+                <div className='hidden sm:flex flex-col flex-start sm:col-span-1 lg:col-span-2 scrollarea'>
+                    <Sticky boundaryElement='.scrollarea'>
                         <FadeInRight>
                             <Image layout='intrinsic' src={leaning} width={540} height={960} alt='Akari Leaning'/>
                         </FadeInRight>
-                    </div>
+                    </Sticky>
                 </div>
             </div>
         </section>
