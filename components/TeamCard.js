@@ -8,7 +8,7 @@ const TeamCard = ({image, name, title, children}) => {
             whileHover={{scale: 1.02, y: -10, transition: {duration: 0.3, type: 'spring', bounce: .5}}}
         >
             <div className='w-[100px] h-[100px] rounded-full overflow-hidden border-[1px] border-gray-500 bg-yellow-300 mt-[-50px]'>
-                <Image src={image} width='100' height='100' alt='team member'
+                <Image src={image} placeholder='blur' width='100' height='100' alt='team member'
                 />
             </div>
             <h4 className='text-xl sm:text-2xl mt-2'>{name}</h4>

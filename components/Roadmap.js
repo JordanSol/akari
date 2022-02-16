@@ -23,23 +23,22 @@ const Roadmap = () => {
                         </RoadmapCard>
                         <RoadmapCard title='Growth' number='1'>
                             <p>
-                            Pre-sale access will be given to whitelisted members of the community. We firmly believe in rewarding those that take part and make themselves involved. We also recognize that the NFT space is large and expanding at an alarming rate. Sometimes you miss getting into a project early, so we are making sure to set aside a portion for public sale, so everyone has a chance to hop on for the ride.
+                            Pre-sale access will be given to whitelisted members of the community. We firmly believe in rewarding those that take part and make themselves involved. We also recognize that the NFT space is large and expanding at an alarming rate. Sometimes you miss getting into a project early, so we are making sure to set aside a portion for public sale, so everyone has a chance to hop on for the ride. 
+                            On the date of <span className="blur-sm">-REDACTED-</span> we will be launching on <span className="blur-sm">-REDACTED-</span> for a mint price of <span className="blur-sm">-REDACTED-</span>.
                             </p>
                         </RoadmapCard>
                         <RoadmapCard title='Bloom' number='2'>
                             <p>
-                            We will be applying for listing immediately upon sellout, and shortly after that holder verification will be set up in the discord. Holders of Akari will have access to exclusive Alpha channels run by the owners and can share their own information for a chance to obtain more important roles within the community. Akari holders will influence the future of the project by community votes and ideas. 
+                            We will be applying for listing immediately upon sellout, and shortly after that holder verification will be set up in the discord. Holders of Akari will have access to exclusive Alpha channels run by the owners and can share their own information for a chance to obtain more important roles within the community. 
+                            <br/>
+                            <br/>
+                            The Akari project was initially centered around the art, and we still believe that it speaks for itself, but with the amount of support we have received and calls from the community we believe it can be something more. Akari holders will then get the chance to influence the future of the project by rallying together their ideas and voting.
                             </p>
                         </RoadmapCard>
                         <RoadmapCard title='Flourish' number='3'>
-                            <p>The sky is not the limit, there is nowhere the light cannot reach. To be revealed.</p>
-                            <br/>
-                            <p className='font-bold'>Potentials / Exploring / Considering</p>
-                            <ul className="list-disc ml-5">
-                                <li>Japanese Visual Novel</li>
-                                <li>Staking with customization</li>
-                                <li>DAO</li>
-                            </ul>
+                            <p>
+                            The sky is not the limit, there is nowhere the light cannot reach. To be voted upon by the community.
+                            </p>
                         </RoadmapCard>
                     </FadeInLeft>
                 </div>
@@ -47,7 +46,7 @@ const Roadmap = () => {
                     <Sticky boundaryElement='.scrollarea'>
                         <FadeInRight>
                             <div className='pt-10'>                         
-                                <Image layout='intrinsic' src={leaning} width={540} height={960} alt='Akari Leaning'/>
+                                <Image layout='intrinsic' placeholder='blur' src={leaning} width={540} height={960} alt='Akari Leaning'/>
                             </div>
                         </FadeInRight>
                     </Sticky>
