@@ -33,7 +33,8 @@ module.exports = {
         'innerLg': "box-shadow: inset 0 16px 32px 0 rgba(0, 0, 0, 0.7)"
       },
       backgroundImage: {
-        'teambg': "url('/teambg.svg')"
+        'teambg': "url('/teambg.svg')",
+        'carouselbg': "url('/carouselbg.svg')"
       }
     },
   },

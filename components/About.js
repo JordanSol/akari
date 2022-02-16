@@ -1,6 +1,7 @@
 import FadeInLeft from './FadeInLeft'
 import FadeInRight from './FadeInRight'
 import Image from 'next/image'
+import { FaDiscord, FaTwitter } from 'react-icons/fa'
 import YellowCard from '../assets/YellowCard.png'
 
 const About = () => {
@@ -28,7 +29,14 @@ const About = () => {
                     <h4 className='mb-1 text-xl'>Join The Community</h4>
                     <p>
                     Get involved with the movement. Find your light.
-
+                    <div className='flex justify-start text-2xl my-2'>
+                    <a href="https://discord.gg/AkariLabs" target='_blank' rel='noreferrer'>
+                    <FaDiscord className=''/>   
+                    </a>
+                    <a href="https://twitter.com/AkariLabs" target='_blank' rel='noreferrer'>
+                    <FaTwitter className='mx-2'/>
+                    </a>
+                </div>
                     </p>
                 </FadeInLeft>
             </div>

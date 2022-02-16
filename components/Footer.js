@@ -2,12 +2,16 @@ import { FaDiscord, FaTwitter } from 'react-icons/fa'
 
 const Footer = () => {
     return (
-        <footer className='w-100 h-60 bg-darkPurple flex items-center justify-center'>
+        <footer className='w-100 h-40 bg-yellow-300 text-black flex items-center justify-center'>
             <div className='w-full max-w-screen-xl flex justify-between px-12'>
-                <h5 className='text-2xl font-acierOutline'>Akari</h5>
-                <div className='flex text-2xl justify-between w-16'>
-                    <FaDiscord/>
-                    <FaTwitter/>
+                <h5 className='text-3xl font-acierOutline'>Akari</h5>
+                <div className='flex text-3xl justify-between w-20'>
+                <a href="https://discord.gg/AkariLabs" target='_blank' rel='noreferrer'>
+                <FaDiscord className=''/>   
+                </a>
+                <a href="https://twitter.com/AkariLabs" target='_blank' rel='noreferrer'>
+                <FaTwitter className=''/>
+                </a>
                 </div>
             </div>
         </footer>

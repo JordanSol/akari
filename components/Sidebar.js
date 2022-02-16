@@ -45,11 +45,16 @@ const Sidebar = ({toggle, menuOpen }) => {
                     <li className='my-4'><AnchorLink onClick={() => toggle()} href="#about" className="transition-all hover:text-yellow-200">ABOUT</AnchorLink></li>
                     <li className='my-4'><AnchorLink onClick={() => toggle()} href="#team" className="transition-all hover:text-yellow-200">TEAM</AnchorLink></li>
                     <li className='my-4'><AnchorLink onClick={() => toggle()} href="#roadmap" className="transition-all hover:text-yellow-200">ROADMAP</AnchorLink></li>
+                    <li className='my-4'><AnchorLink onClick={() => toggle()} href="#Showcase" className="transition-all hover:text-yellow-200">SHOWCASE</AnchorLink></li>
                     <li><hr className='my-4'/></li>
                     <li>
                         <div className='flex justify-center text-3xl'>
-                            <FaDiscord className='mx-2'/>
+                            <a href="https://discord.gg/AkariLabs" target='_blank' rel='noreferrer'>
+                            <FaDiscord className='mx-2'/>   
+                            </a>
+                            <a href="https://twitter.com/AkariLabs" target='_blank' rel='noreferrer'>
                             <FaTwitter className='mx-2'/>
+                            </a>
                         </div>
                     </li>
                 </ul>

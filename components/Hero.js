@@ -57,7 +57,7 @@ const Hero = () => {
                 <div className='absolute z-50 bottom-0 mb-[-1px] w-screen h-1/5 bg-gradient-to-b from-transparent to-sitePurple'/>
             </Foreground>
             <Foreground2 speed={70} loading={loading}>
-                <span className='absolute bottom-12 left-12 rotate-270 text-white font-acierOutline text-5xl'>.0<span>1</span></span>
+                <span className='absolute bottom-12 left-12 rotate-270 text-white font-acierOutline text-5xl'>.0<span className='font-acier'>1</span></span>
                 <div className='absolute bottom-0 right-12  w-2 text-white flex-col justify-center'>
                     <p className='font-acier text-sm rotate-90 w-1'>{'"Scroll Down"'}</p>
                     <img layout='fill' src="/Arrow 1.svg" alt='arrow vector' className='margin-0'/>

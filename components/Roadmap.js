@@ -7,7 +7,7 @@ import leaning from '../assets/leaning.png'
 
 const Roadmap = () => {
     return (
-        <section id='roadmap' className='w-screen min-h-screen py-20 flex flex-col items-center bg-sitePurple'>
+        <section id='roadmap' className='w-screen min-h-screen relative py-20 flex flex-col items-center bg-sitePurple'>
             <div className='max-w-screen-xl px-12 w-full'><FadeInLeft><h2 className='w-full text-4xl md:text-5xl lg:text-6xl mb-5 lg:mb-6'>Road<span className='text-yellow-300'>map</span></h2></FadeInLeft></div>
             <div className='relative max-w-screen-xl px-12 w-full grid gap-20 grid-cols-1 sm:grid-cols-3 lg:grid-cols-4'>
                 <div className='sm:col-span-2'>
@@ -45,7 +45,7 @@ const Roadmap = () => {
                 <div className='hidden sm:flex flex-col flex-start sm:col-span-1 lg:col-span-2 scrollarea'>
                     <Sticky boundaryElement='.scrollarea'>
                         <FadeInRight>
-                            <div className='pt-10'>                         
+                            <div className='pt-10 3xl:pt-4'>                         
                                 <Image layout='intrinsic' placeholder='blur' src={leaning} width={540} height={960} alt='Akari Leaning'/>
                             </div>
                         </FadeInRight>
