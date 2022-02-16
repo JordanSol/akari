@@ -1,5 +1,5 @@
 import { useParallax } from 'react-scroll-parallax'
-import { motion, useAnimation } from 'framer-motion'
+import { m, useAnimation } from 'framer-motion'
 import { useEffect } from 'react'
 
 const springIn = {
@@ -28,13 +28,13 @@ const Foreground = ({loading, children, speed = 10}) => {
     },[controls, loading])
 
     return (
-        <motion.div ref={ref} className={`w-screen h-screen absolute top-0 left-0`}
+        <m.div ref={ref} className={`w-screen h-screen absolute top-0 left-0`}
             variants={springIn}
             initial='start'
             animate={controls}
         >
             {children}
-        </motion.div>
+        </m.div>
     )
 }
 

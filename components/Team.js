@@ -4,7 +4,7 @@ import aime from '../assets/Aime.png'
 import jaykwa from '../assets/Jaykwa.png'
 import octillion from '../assets/Octillion.png'
 import { useInView } from 'react-intersection-observer'
-import { useAnimation, motion } from 'framer-motion'
+import { useAnimation, m } from 'framer-motion'
 import { useEffect } from 'react'
 
 const fadeIn = {
@@ -28,18 +28,18 @@ const Team = () => {
     }, [controls, inView])
 
     return (
-        <section id='team' ref={ref} className='z-10 relative w-screen bg-darkPurple shadow-innerLg flex justify-center py-20 bg-teambg bg-center bg-cover border-yellow-300 border-t-4 border-b-4'>
+        <section id='team' className='z-10 relative w-screen bg-darkPurple shadow-innerLg flex justify-center py-20 bg-teambg bg-center bg-cover border-yellow-300 border-t-4 border-b-4'>
             <div className='max-w-screen-xl w-full px-12 flex flex-col justify-start items-center'>
-                <div className='w-full'>
-                    <motion.div
+                <div ref={ref} className='w-full'>
+                    <m.div
                         initial='hidden'
                         animate={controls}
                         variants={fadeInRight}
                     >
                             <h3 className='text-4xl md:text-5xl lg:text-6xl w-full text-right'><span className='text-yellow-300'>Our </span>Team</h3>
-                    </motion.div>
+                    </m.div>
                 </div>
-                <motion.div className='grid gap-14 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 w-full pb-6 py-20'
+                <m.div className='grid gap-14 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 w-full pb-6 py-20'
                     initial='hidden'
                     animate={controls}
                     variants={fadeIn}
@@ -58,7 +58,7 @@ const Team = () => {
                         <TeamCard name='Corvidd' image={corvidd} title='Web Developer'>
                             Corvidd is the Frontend Web Developer at Akari, delivering our message in a sleek package.
                         </TeamCard>
-                </motion.div>
+                </m.div>
             </div>
         </section>
     )

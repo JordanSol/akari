@@ -4,7 +4,7 @@ import RoadmapCard from "./RoadmapCard"
 import leaning from '../assets/leaning.png'
 
 import { useInView } from 'react-intersection-observer'
-import { useAnimation, motion } from 'framer-motion'
+import { useAnimation, m } from 'framer-motion'
 import { useEffect } from 'react'
 
 const fadeInLeft = {
@@ -28,11 +28,11 @@ const Roadmap = () => {
     }, [controls, inView])
 
     return (
-        <section id='roadmap' ref={ref} className='w-screen min-h-screen relative py-20 flex flex-col items-center bg-sitePurple'>
-            <div className='max-w-screen-xl px-12 w-full'><motion.div initial='hidden' animate={controls} variants={fadeInLeft}><h2 className='w-full text-4xl md:text-5xl lg:text-6xl mb-5 lg:mb-6'>Road<span className='text-yellow-300'>map</span></h2></motion.div></div>
+        <section id='roadmap' className='w-screen min-h-screen relative py-20 flex flex-col items-center bg-sitePurple'>
+            <div ref={ref} className='max-w-screen-xl px-12 w-full'><m.div initial='hidden' animate={controls} variants={fadeInLeft}><h2 className='w-full text-4xl md:text-5xl lg:text-6xl mb-5 lg:mb-6'>Road<span className='text-yellow-300'>map</span></h2></m.div></div>
             <div className='relative max-w-screen-xl px-12 w-full grid gap-20 grid-cols-1 sm:grid-cols-3 lg:grid-cols-4'>
                 <div className='sm:col-span-2'>
-                    <motion.div
+                    <m.div
                         initial='hidden'
                         animate={controls}
                         variants={fadeInLeft}
@@ -65,11 +65,11 @@ const Roadmap = () => {
                             The sky is not the limit, there is nowhere the light cannot reach. To be voted upon by the community.
                             </p>
                         </RoadmapCard>
-                    </motion.div>
+                    </m.div>
                 </div>
                 <div className='hidden sm:flex flex-col flex-start sm:col-span-1 lg:col-span-2 scrollarea'>
                     <Sticky boundaryElement='.scrollarea'>
-                        <motion.div
+                        <m.div
                             initial='hidden'
                             animate={controls}
                             variants={fadeInRight}
@@ -77,7 +77,7 @@ const Roadmap = () => {
                             <div className='pt-10 3xl:pt-4'>                         
                                 <Image layout='intrinsic' placeholder='blur' src={leaning} width={540} height={960} className='brightness-110' alt='Akari Leaning'/>
                             </div>
-                        </motion.div>
+                        </m.div>
                     </Sticky>
                 </div>
             </div>

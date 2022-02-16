@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import {motion} from 'framer-motion'
+import {motion, LazyMotion, domAnimation} from 'framer-motion'
 import Layout from '../components/layout'
 import '../styles/globals.css'
 
@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps, router }) {
           <title>Akari NFT</title>
         </Head>
         <Layout>
+          <LazyMotion features={domAnimation}>
           <motion.div key={router.route} initial='pageInitial' animate='pageAnimate' variants={{
             pageInitial: {
               opacity: 0
@@ -20,6 +21,7 @@ function MyApp({ Component, pageProps, router }) {
           }}>
             <Component {...pageProps}/>
           </motion.div>
+          </LazyMotion>
         </Layout>
       </>
     )

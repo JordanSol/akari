@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { FaDiscord, FaTwitter } from 'react-icons/fa'
 import YellowCard from '../assets/YellowCard.png'
 import { useInView } from 'react-intersection-observer'
-import { useAnimation, motion } from 'framer-motion'
+import { useAnimation, m } from 'framer-motion'
 import { useEffect } from 'react'
 
 const fadeInLeft = {
@@ -26,11 +26,11 @@ const About = () => {
     }, [controls, inView])
 
     return (
-        <section id='about' ref={ref} className='w-screen relative flex justify-center pt-24'>
+        <section id='about' className='w-screen relative flex justify-center pt-24'>
         <div className='max-w-screen-xl w-full px-12'>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-10'>
-            <div className='row-span-2'>
-                <motion.div
+            <div ref={ref} className='row-span-2'>
+                <m.div
                     initial='hidden'
                     animate={controls}
                     variants={fadeInLeft}
@@ -57,15 +57,15 @@ const About = () => {
                     <FaDiscord className=''/>   
                     </a>
                     <a href="https://twitter.com/AkariLabs" target='_blank' rel='noreferrer'>
-                    <FaTwitter className='mx-2'/>
+                    <FaTwitter className='mx-2 mb-8'/>
                     </a>
                 </div>
                     </p>
-                </motion.div>
+                </m.div>
             </div>
             <div className='row-span-2 mb-[-7px]'>
                 <div className='h-full flex items-end'>
-                    <motion.div
+                    <m.div
                         initial='hidden'
                         animate={controls}
                         variants={fadeInRight}
@@ -74,7 +74,7 @@ const About = () => {
                             placeholder='blur'
                             className='relative'
                         />
-                    </motion.div>
+                    </m.div>
                 </div>
             </div>
         </div>
