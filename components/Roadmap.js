@@ -9,8 +9,8 @@ import { useAnimation, motion } from 'framer-motion'
 import { useEffect } from 'react'
 
 const fadeInLeft = {
-    visible: { opacity: 1, x: 0, transition: {duration: .9, delay: .5, type: 'spring', bounce: .5}},
-    hidden: { opacity: 0, x: -100}
+    visible: { opacity: 1, transition: {duration: .9, delay: .5, type: 'spring', bounce: .5}},
+    hidden: { opacity: 0 }
 }
 
 const fadeInRight = {
