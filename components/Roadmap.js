@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import Sticky from 'react-sticky-el'
 import RoadmapCard from "./RoadmapCard"
-import FadeInLeft from "./FadeInLeft"
 import leaning from '../assets/leaning.png'
 
 import { useInView } from 'react-intersection-observer'
