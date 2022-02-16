@@ -46,7 +46,9 @@ const Roadmap = () => {
                 <div className='hidden sm:flex flex-col flex-start sm:col-span-1 lg:col-span-2 scrollarea'>
                     <Sticky boundaryElement='.scrollarea'>
                         <FadeInRight>
-                            <Image layout='intrinsic' src={leaning} width={540} height={960} alt='Akari Leaning'/>
+                            <div className='pt-10'>                         
+                                <Image layout='intrinsic' src={leaning} width={540} height={960} alt='Akari Leaning'/>
+                            </div>
                         </FadeInRight>
                     </Sticky>
                 </div>
