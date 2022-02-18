@@ -21,7 +21,7 @@ const About = () => {
                     We wanted to make our mark on web3 as well, so we decided to create Akari on Solana. 
                     Half of the Akari team speaks Japanese, so we also wanted to take the chance to
                     stay true to the culture while still stylizing it in our own unique way. 
-                    This is something we believe hasn't been done properly yet on Solana. We will be the first.
+                    This is something we believe {"hasn't"} been done properly yet on Solana. We will be the first.
                     </p>
                     <br/>
                     <h4 className='mb-1 text-xl'>Join The Community</h4>
