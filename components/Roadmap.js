@@ -3,40 +3,14 @@ import Sticky from 'react-sticky-el'
 import RoadmapCard from "./RoadmapCard"
 import leaning from '../assets/leaning.png'
 
-import { useInView } from 'react-intersection-observer'
-import { useAnimation, m } from 'framer-motion'
-import { useEffect } from 'react'
-
-const fadeInLeft = {
-    visible: { opacity: 1, transition: {duration: .9, delay: .5, type: 'spring', bounce: .5}},
-    hidden: { opacity: 0 }
-}
-
-const fadeInRight = {
-    visible: { opacity: 1, x: 0, transition: {duration: .9, delay: .5, type: 'spring', bounce: .5}},
-    hidden: { opacity: 0, x: 100}
-}
-
 const Roadmap = () => {
-    const [ ref, inView ] = useInView()
-    const controls = useAnimation()
-
-    useEffect(() => {
-        if (inView) {
-            controls.start('visible')
-        }
-    }, [controls, inView])
 
     return (
         <section id='roadmap' className='w-screen min-h-screen relative py-20 flex flex-col items-center bg-sitePurple'>
-            <div ref={ref} className='max-w-screen-xl px-12 w-full'><m.div initial='hidden' animate={controls} variants={fadeInLeft}><h2 className='w-full text-4xl md:text-5xl lg:text-6xl mb-5 lg:mb-6'>Road<span className='text-yellow-300'>map</span></h2></m.div></div>
+            <div className='max-w-screen-xl px-12 w-full'><div><h2 className='w-full text-4xl md:text-5xl lg:text-6xl mb-5 lg:mb-6'>Road<span className='text-yellow-300'>map</span></h2></div></div>
             <div className='relative max-w-screen-xl px-12 w-full grid gap-20 grid-cols-1 sm:grid-cols-3 lg:grid-cols-4'>
                 <div className='sm:col-span-2'>
-                    <m.div
-                        initial='hidden'
-                        animate={controls}
-                        variants={fadeInLeft}
-                    >     
+                    <div>     
                         <RoadmapCard title='A Seed' number='0'>
                             <p>
                             Our focus first and foremost is the community. Using social media, we hope to grow the Akari brand and community into something everyone can find a place in. We are taking the fundamentals of web3 and decentralization into account here. The community is and always will be our foundation. We are planting our seeds in the right places to make this project spectacular. 
@@ -62,22 +36,18 @@ const Roadmap = () => {
                         </RoadmapCard>
                         <RoadmapCard title='Flourish' number='3'>
                             <p>
-                            The sky is not the limit, there is nowhere the light cannot reach. To be voted upon by the community.
+                            The sky is not the limit, there is nowhere the light cannot reach. To be revealed and then voted upon by the community.
                             </p>
                         </RoadmapCard>
-                    </m.div>
+                    </div>
                 </div>
                 <div className='hidden sm:flex flex-col flex-start sm:col-span-1 lg:col-span-2 scrollarea'>
                     <Sticky boundaryElement='.scrollarea'>
-                        <m.div
-                            initial='hidden'
-                            animate={controls}
-                            variants={fadeInRight}
-                        >
+                        <div>
                             <div className='pt-10 3xl:pt-4'>                         
                                 <Image layout='intrinsic' placeholder='blur' src={leaning} width={540} height={960} className='brightness-110' alt='Akari Leaning'/>
                             </div>
-                        </m.div>
+                        </div>
                     </Sticky>
                 </div>
             </div>
