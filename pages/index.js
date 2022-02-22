@@ -8,11 +8,15 @@ import NoSsr from "../components/no-ssr"
 const HomePage = () => {
     return (
         <container className=''>
-            <Hero/>
+            <NoSsr>
+                <Hero/>
+            </NoSsr>
             <About/>
             <Team/>
             <Roadmap/>
-            <Carousel/>
+            <NoSsr>
+                <Carousel/>
+            </NoSsr>
         </container>
     )
 }

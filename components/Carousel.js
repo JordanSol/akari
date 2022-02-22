@@ -12,6 +12,7 @@ const Carousel = () => {
     },[])
 
     return (
+        <>
         <section id='Showcase' className='relative w-screen bg-darkPurple shadow-innerLg flex justify-center py-8 bg-carouselbg bg-center bg-cover border-yellow-300 border-t-4 border-b-4'>
             <motion.div ref={carousel} whileTap={{pointer: 'grabbing'}} className='cursor-grab overflow-x-hidden'>
                 <motion.div drag='x' dragConstraints={{right:0, left: -width}} className='flex justify-between w-inherit pl-4'>
@@ -28,6 +29,7 @@ const Carousel = () => {
                 </motion.div>
             </motion.div>
         </section>
+        </>
     )
 }
 
